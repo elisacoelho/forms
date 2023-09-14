@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Formulário de Cadastro de Nutrição</h1>
+    <form>
+        <label for="nome">1. Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="idade">2. Idade:</label>
+        <input type="number" id="idade" name="idade" required><br><br>
+
+        <label for="genero">3. Gênero:</label>
+        <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <label for="email">4. E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefone">5. Número de Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <label for="altura">6. Altura (em metros):</label>
+        <input type="number" id="altura" name="altura" step="0.01" required><br><br>
+
+        <label for="peso">7. Peso (em quilogramas):</label>
+        <input type="number" id="peso" name="peso" step="0.01" required><br><br>
+
+        <label for="objetivo">8. Objetivo:</label>
+        <input type="text" id="objetivo" name="objetivo" required><br><br>
+
+        <label for="alergias">9. Alergias Alimentares (se houver):</label>
+        <input type="text" id="alergias" name="alergias"><br><br>
+
+        <label for="observacoes">10. Observações Adicionais:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
